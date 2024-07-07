@@ -54,11 +54,9 @@ def game():
         return "Hard mode selected"
 
     if a == 1:
-        print(easier())
-    elif a == 2:
-        print(average())
-    else:
-        print(harder())
+        print(start())
+  
+
 
     global m
     m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
